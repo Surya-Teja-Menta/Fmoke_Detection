@@ -1,0 +1,7 @@
+torch
+trochvision
+numpy
+pillow
+Scipy
+flask
+werkzeug
