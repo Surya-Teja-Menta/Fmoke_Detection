@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Fmoke_Detection",
+    "public": "Fmoke_Detection/Fmoke_Detection",
     "ignore": [
       "firebase.json",
       "**/.*",
