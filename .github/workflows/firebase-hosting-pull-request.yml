@@ -16,12 +16,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install flake8 pytest torch torchvision numpy pillow flask werkzeug
-
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi    
       - uses: actions/checkout@v2
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.FIREBASE_TOKEN }}'
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FMOKE_573 }}'
           projectId: fmoke-573
