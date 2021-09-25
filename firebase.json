@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Fmoke_Detection",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
