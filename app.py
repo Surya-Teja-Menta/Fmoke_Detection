@@ -5,7 +5,6 @@ from PIL import Image
 import numpy as np
 import torch
 from Prediction_Service.predict import Predict
-from tensorflow.keras.preprocessing import image
 
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
