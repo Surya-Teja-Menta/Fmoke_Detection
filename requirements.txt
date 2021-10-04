@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
-torch==1.6.0+cpu
-torchvision==0.7.0+cpu
+torch==1.9.1+cpu
+torchvision==0.10.1+cpu
 numpy
 pillow
 Scipy
