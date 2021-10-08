@@ -7,3 +7,4 @@ Scipy
 flask
 werkzeug
 gunicorn
+tensorflow-cpu
