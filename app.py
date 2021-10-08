@@ -5,7 +5,8 @@ from PIL import Image
 import numpy as np
 import torch
 from Prediction_Service.predict import Predict
-from tensorflow.keras.preprocessing import image
+#from keras.preprocessing import image
+from numpy import asarray
 
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
@@ -29,7 +30,7 @@ def model_predict(img_path, model):
     img = Image.open(img_path)
 
     # Preprocessing the image
-    x = image.img_to_array(img)
+    x = asarray(img)
     # x = np.true_divide(x, 255)
     ## Scaling
     x=x/255
