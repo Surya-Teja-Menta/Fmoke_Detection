@@ -42,3 +42,5 @@ git push origin main
 pip freeze > requirements.txt
 ``` 
 
+[Fmoke Detection App](https://fmokedetection.herokuapp.com/)
+
